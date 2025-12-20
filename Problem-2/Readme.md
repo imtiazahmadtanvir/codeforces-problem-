@@ -1,28 +1,58 @@
-Sometimes some words like "localization" or "internationalization" are so long that writing them many times in one text is quite tiresome.
+# Problem 2: Way Too Long Words
 
-Let's consider a word too long, if its length is strictly more than 10 characters. All too long words should be replaced with a special abbreviation.
+## Problem Statement
 
-This abbreviation is made like this: we write down the first and the last letter of a word and between them we write the number of letters between the first and the last letters. That number is in decimal system and doesn't contain any leading zeroes.
+Sometimes some words like "localization" or "internationalization" are so long that writing them repeatedly becomes quite tiresome.
 
-Thus, "localization" will be spelt as "l10n", and "internationalization» will be spelt as "i18n".
+You are tasked to automate the abbreviation of these long words in a text.
 
-You are suggested to automatize the process of changing the words with abbreviations. At that all too long words should be replaced by the abbreviation and the words that are not too long should not undergo any changes.
+**Definition:**  
+A word is considered "too long" if its length is strictly greater than 10 characters. Such words should be replaced with a special abbreviation:
+- The abbreviation consists of the first letter, followed by the number of letters between the first and last letter, ending with the last letter.
+- For example, "localization" becomes `l10n`. "internationalization" becomes `i18n`.
 
-Input
-The first line contains an integer n (1 ≤ n ≤ 100). Each of the following n lines contains one word. All the words consist of lowercase Latin letters and possess the lengths of from 1 to 100 characters.
+Words that are not too long (length 10 or less) should remain unchanged.
 
-Output
-Print n lines. The i-th line should contain the result of replacing of the i-th word from the input data.
+---
 
-Input:
+## Input
+
+- The first line contains an integer **n** (**1 ≤ n ≤ 100**), the number of words.
+- Each of the following **n** lines contains one word.
+- All words consist of lowercase Latin letters and have a length from 1 to 100 characters.
+
+### Example Input
+
+```
 4
 word
 localization
 internationalization
 pneumonoultramicroscopicsilicovolcanoconiosis
+```
 
-Output:
+---
+
+## Output
+
+- Print **n** lines.
+- The i-th line should contain the abbreviation (if needed) of the i-th input word.
+
+### Example Output
+
+```
 word
 l10n
 i18n
 p43s
+```
+
+---
+
+## Notes
+
+- "localization" (length 12) becomes `l10n`: First letter (`l`), 10 letters in between, last letter (`n`).
+- "internationalization" (length 20) becomes `i18n`: First letter (`i`), 18 (`20-2`) in between, last letter (`n`).
+- "word" (length 4), is not too long and remains unchanged.
+
+---

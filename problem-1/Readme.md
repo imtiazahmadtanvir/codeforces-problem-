@@ -1,12 +1,28 @@
-A. Watermelon
-time limit per test1 second
-memory limit per test64 megabytes
-One hot summer day Pete and his friend Billy decided to buy a watermelon. They chose the biggest and the ripest one, in their opinion. After that the watermelon was weighed, and the scales showed w kilos. They rushed home, dying of thirst, and decided to divide the berry, however they faced a hard problem.
+# Problem A: Watermelon
 
-Pete and Billy are great fans of even numbers, that's why they want to divide the watermelon in such a way that each of the two parts weighs even number of kilos, at the same time it is not obligatory that the parts are equal. The boys are extremely tired and want to start their meal as soon as possible, that's why you should help them and find out, if they can divide the watermelon in the way they want. For sure, each of them should get a part of positive weight.
+## Problem Statement
 
-Input
-The first (and the only) input line contains integer number w (1 ≤ w ≤ 100) — the weight of the watermelon bought by the boys.
+One hot summer day, Pete and his friend Billy decided to buy a watermelon. They chose the biggest and ripest one, in their opinion. After that, the watermelon was weighed, and the scales showed `w` kilograms.
 
-Output
-Print YES, if the boys can divide the watermelon into two parts, each of them weighing even number of kilos; and NO in the opposite case.
+Pete and Billy are great fans of even numbers. Therefore, they want to divide the watermelon into two parts such that each part weighs an even number of kilograms. Note that it is not obligatory for the parts to be equal.
+
+## Input
+- The first (and the only) input line contains an integer `w` (1 ≤ w ≤ 100) — the weight of the watermelon bought by the boys.
+
+## Output
+- Print **YES** if the boys can divide the watermelon into two parts, each weighing an even number of kilograms. 
+- Print **NO** otherwise.
+
+## Example
+**Input:**
+```text
+8
+```
+
+**Output:**
+```text
+YES
+```
+
+**Explanation:**
+The boys can divide the watermelon into two parts weighing 4 kilos each (4 + 4 = 8), which are both even numbers.
