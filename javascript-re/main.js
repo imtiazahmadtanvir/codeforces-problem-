@@ -110,5 +110,60 @@ console.log(m == n);
 
 
 //js operator
+// Operators are for Mathematical and Logical Computations
+// The Assignment Operator = assigns values
+
+// The Addition Operator + adds values
+
+// The Multiplication Operator * multiplies values
+
+// The Comparison Operator > compares values
 
 
+
+// JavaScript Arithmetic Operators
+//    Operator	Description
+//     +	    Addition
+//     -	    Subtraction
+//     *	    Multiplication
+//     **	    Exponentiation
+//     /	    Division
+//     %	    Modulus (Division Remainder)
+//     ++	    Increment
+//     --	    Decrement
+
+// js arithmetic,js assignment,js comparison,js logical operators ect.
+
+
+// JavaScript Conditionals
+    // Conditional Statements
+    // Conditional Statements allow us to perform different actions for different conditions.
+
+    // Conditional statements run different code depending on true or false conditions.
+
+    // Conditional statements include:
+
+    // if
+    // if...else
+    // if...else if...else
+    // switch
+    // ternary (? :)
+
+    // if (condition) {
+    //             // code to execute if the condition is true
+    // } else {                    
+
+    // }
+
+
+//     The else if Statement
+// Use else if to specify a new condition to test, if the first condition is false.
+
+// Syntax
+// if (condition1) {
+//   // code to execute if condition1 is true
+// } else if (condition2) {
+//   // code to execute if the condition1 is false and condition2 is true
+// } else {
+//   // code to execute if the condition1 is false and condition2 is false
+// }
