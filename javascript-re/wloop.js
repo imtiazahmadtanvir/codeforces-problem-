@@ -15,3 +15,10 @@ do {
   j++;
 }while (j < 10);
 console.log(s);
+
+
+//clouser functions
+
+let a =3;
+
+console.log(a);
