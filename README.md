@@ -1,6 +1,6 @@
-# Condeforce - Coding Practice & Problem Solving
+# 🧠 Codeforces & LeetCode – Coding Practice & Problem Solving
 
-A comprehensive repository for solving competitive programming problems and practicing fundamental coding concepts in JavaScript.
+LeetCode Profile: https://leetcode.com/u/imtiaztanvir
 
 ## 📋 Project Overview
 
